@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "926ff98f-059c-4757-aa21-8c065c1657b2",
+		"name": "Zara",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetByBrandProductDate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "2020-06-14 10:00:00",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/prices/price/1/35455",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"prices",
+						"price",
+						"1",
+						"35455"
+					]
+				},
+				"description": "Request body - LocalDateTime equivalent; format *yyyy-MM-ddTHH:mm:ss* or *yyyy-MM-dd HH:mm:ss.*"
+			},
+			"response": []
+		}
+	]
+}
